@@ -66,7 +66,8 @@ article p{{margin:0;color:var(--muted)}}time{{font-size:14px;color:var(--muted)}
 footer{{margin-top:40px;padding-top:18px;border-top:1px solid var(--line);font-size:14px;color:var(--muted)}}a{{color:var(--accent)}}
 </style></head><body><main>
 <header><h1>{html.escape(SITE_TITLE)}</h1><p>{html.escape(SITE_DESC)}</p>
-<p style="margin:-14px 0 28px"><a href="/monitor/">📊 Theo dõi dòng tiền chứng khoán Việt Nam (cập nhật mỗi phiên)</a></p></header>
+<p style="margin:-14px 0 28px"><a href="/monitor/">📊 Theo dõi dòng tiền chứng khoán Việt Nam (cập nhật mỗi phiên)</a><br>
+<a href="/stablecoin/">💵 Theo dõi vốn hóa stablecoin (cập nhật hằng ngày)</a></p></header>
 {items}
 <footer>© {dt.date.today().year} {html.escape(AUTHOR)} · <a href="/feed.xml">RSS</a></footer>
 </main></body></html>
