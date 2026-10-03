@@ -10,4 +10,7 @@ Blog tĩnh host trên GitHub Pages: https://nitro2.github.io
 
 Muốn đổi tên hoặc mô tả blog, sửa `SITE_TITLE` và `SITE_DESC` ở đầu `build.py`.
 
+## Trang theo dõi `/monitor/`
+Thư mục `monitor/` do máy luca tự sinh và tự push sau mỗi phiên giao dịch: thứ 2 đến thứ 6, lúc 15:40 và 17:30 giờ Việt Nam. Máy luca dùng deploy key riêng cho repo này. Code nằm ở `~/Projects/Dreamer/econo/vnmonitor`. Vì luca push vào repo hằng ngày, anh nhớ chạy `git pull` trước khi sửa blog trên Mac. Không sửa tay thư mục `monitor/`.
+
 Bài "Dòng tiền và chứng khoán Việt Nam" được sinh từ `~/Projects/Dreamer/econo/build_article.py`.
